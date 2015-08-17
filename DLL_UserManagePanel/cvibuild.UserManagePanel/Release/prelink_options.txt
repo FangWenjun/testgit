@@ -1,0 +1,7 @@
+-inrc e:\Repos\UserManager\DLL_UserManagePanel\cvibuild.UserManagePanel\Release\resources.in.rc
+-outrc e:\Repos\UserManager\DLL_UserManagePanel\cvibuild.UserManagePanel\Release\resources.out.rc
+-inhdef e:\Repos\UserManager\DLL_UserManagePanel\cvibuild.UserManagePanel\Release\DLL_UserManagePanel.h.hdefs
+-outdef e:\Repos\UserManager\DLL_UserManagePanel\cvibuild.UserManagePanel\Release\DLL_UserManagePanel.dll.defs
+-indefprot e:\Repos\UserManager\DLL_UserManagePanel\cvibuild.UserManagePanel\Release\Publish_MySQL.obj.cvidefprots
+-indefprot e:\Repos\UserManager\DLL_UserManagePanel\cvibuild.UserManagePanel\Release\UserManagePanel.obj.cvidefprots
+-dllName DLL_UserManagePanel.dll

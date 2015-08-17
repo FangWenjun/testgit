@@ -1,0 +1,8 @@
+[CheckUserAndPasswordInMysqlDB]
+Class="Function"
+Prototype="int CheckUserAndPasswordInMysqlDB(struct UserManageMysqlDBInfoStru *pMysqlDBInfo, char *pTableName, int UserType, char *pUserName, char *pPassword);"
+
+[UpdateNewPasswordInMysqlDB]
+Class="Function"
+Prototype="int UpdateNewPasswordInMysqlDB(struct UserManageMysqlDBInfoStru *pMysqlDBInfo, char *pTableName, int UserType, char *pUserName, char *pPasswordOld, char *pPasswordNew);"
+

@@ -1,0 +1,32 @@
+[Your_Functions_Here]
+Class="Function"
+Prototype="int Your_Functions_Here(int x);"
+
+[SetUserAuthorizationRunTime]
+Class="Function"
+Prototype="int SetUserAuthorizationRunTime(struct UserManageMysqlDBInfoStru *pMysqlDBInfo, char *pTableName);"
+
+[CheckUserAuthorization]
+Class="Function"
+Prototype="int CheckUserAuthorization(int UserType, struct UserAuthorizeResultStru *pUserAuthorizeResult);"
+
+[ChangeUserPassword]
+Class="Function"
+Prototype="int ChangeUserPassword();"
+
+[CBF_CBT_UserLogin]
+Class="Function"
+Prototype="int CBF_CBT_UserLogin(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[DllMain]
+Class="Function"
+Prototype="int DllMain(struct HINSTANCE__ *hinstDLL, unsigned long fdwReason, void *lpvReserved);"
+
+[DllEntryPoint]
+Class="Function"
+Prototype="int DllEntryPoint(struct HINSTANCE__ *hinstDLL, unsigned long fdwReason, void *lpvReserved);"
+
+[CBF_CBT_Cancel]
+Class="Function"
+Prototype="int CBF_CBT_Cancel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

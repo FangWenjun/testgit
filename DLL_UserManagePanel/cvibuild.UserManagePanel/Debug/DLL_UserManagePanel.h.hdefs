@@ -1,0 +1,25 @@
+
+
+
+
+
+
+
+
+
+[Your_Functions_Here]
+Class="Function"
+Prototype="int Your_Functions_Here(int x);"
+
+[SetUserAuthorizationRunTime]
+Class="Function"
+Prototype="int SetUserAuthorizationRunTime(struct UserManageMysqlDBInfoStru *pMysqlDBInfo, char *pTableName);"
+
+[CheckUserAuthorization]
+Class="Function"
+Prototype="int CheckUserAuthorization(int UserType, struct UserAuthorizeResultStru *pUserAuthorizeResult);"
+
+[ChangeUserPassword]
+Class="Function"
+Prototype="int ChangeUserPassword();"
+

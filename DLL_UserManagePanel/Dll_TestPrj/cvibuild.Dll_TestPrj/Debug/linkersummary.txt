@@ -1,0 +1,8 @@
+Dll_TestPrj.obj
+cvi.lib
+cvistart.lib
+DLL_UserManagePanel.lib
+kernel32.lib
+user32.lib
+EXE Symbol Module
+Resource Module

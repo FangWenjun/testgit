@@ -1,0 +1,64 @@
+CCFLAGS = -g ;
+HDRS = 	"f:\\program files\\national instruments\\cvi2013\\toolslib\\activex\\word"
+	"f:\\program files\\national instruments\\cvi2013\\toolslib\\activex\\excel"
+	"f:\\program files\\national instruments\\cvi2013\\toolslib\\custctrl"
+	"f:\\program files\\national instruments\\cvi2013\\toolslib\\custctrl\\custsupp"
+	"f:\\program files\\national instruments\\cvi2013\\toolslib\\cvirtsup"
+	"f:\\program files\\national instruments\\cvi2013\\toolslib\\datasock"
+	"f:\\program files\\national instruments\\cvi2013\\toolslib\\daqUtil"
+	"f:\\program files\\national instruments\\cvi2013\\toolslib\\printing"
+	"f:\\program files\\national instruments\\cvi2013\\toolslib\\toolbox"
+	"f:\\program files\\national instruments\\cvi2013\\toolslib\\reportgen"
+	"f:\\program files\\national instruments\\cvi2013\\toolslib\\localui"
+	"f:\\program files\\national instruments\\cvi2013\\instr"
+	"F:\\Program Files\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"F:\\Program Files\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"F:\\Program Files\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2013\\instr"
+	"f:\\program files\\national instruments\\cvi2013\\include"
+	"F:\\Program Files\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2013\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"f:\\program files\\national instruments\\cvi2013\\include\\ansi"
+	"f:\\program files\\national instruments\\cvi2013\\include\\clang\\2.9"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"f:\\program files\\national instruments\\cvi2013\\sdk\\include"
+	"f:\\Program Files\\National Instruments\\CVI2013\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2013\\bin"
+	"f:\\Program Files\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "DLL_UserManagePanel.h" = "e:\\Repos\\UserManager\\DLL_UserManagePanel" ;
+LOCATE on "Publish_MySQL.c" = "e:\\Repos\\UserManager\\DLL_UserManagePanel" ;
+LOCATE on "Publish_MySQL.h" = "e:\\Repos\\UserManager\\DLL_UserManagePanel" ;
+LOCATE on "UserManagePanel.c" = "e:\\Repos\\UserManager\\DLL_UserManagePanel" ;
+LOCATE on "UserManagePanel.h" = "e:\\Repos\\UserManager\\DLL_UserManagePanel" ;
+Object "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\Publish_MySQL.obj" : "e:\\Repos\\UserManager\\DLL_UserManagePanel\\Publish_MySQL.c" ;
+FILENUM on "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\Publish_MySQL.obj" = 1 ;
+DEFPROTS on "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\Publish_MySQL.obj" = "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\Publish_MySQL.obj.cvidefprots" ;
+OUTFILE on "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\Publish_MySQL.obj" = "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\Publish_MySQL.obj.out" ;
+PrjObjects += "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\Publish_MySQL.obj" ;
+Object "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\UserManagePanel.obj" : "e:\\Repos\\UserManager\\DLL_UserManagePanel\\UserManagePanel.c" ;
+FILENUM on "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\UserManagePanel.obj" = 2 ;
+DEFPROTS on "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\UserManagePanel.obj" = "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\UserManagePanel.obj.cvidefprots" ;
+OUTFILE on "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\UserManagePanel.obj" = "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\UserManagePanel.obj.out" ;
+PrjObjects += "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\UserManagePanel.obj" ;
+Object "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\DLL_UserManagePanel.h.hdefs" : "e:\\Repos\\UserManager\\DLL_UserManagePanel\\DLL_UserManagePanel.h" ;
+FILENUM on "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\DLL_UserManagePanel.h.hdefs" = 3 ;
+OUTFILE on "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\DLL_UserManagePanel.h.hdefs" = "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\DLL_UserManagePanel.h.hdefs.out" ;
+PreLinkInputs += "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\resources.in.rc" ;
+PreLinkInputs += $(PrjObjects) $(InstrObjects) ;
+PreLinkOutputs += "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\resources.out.rc" ;
+PreLinkOutputs += "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\DLL_UserManagePanel.dll.defs" ;
+PreLink $(PreLinkOutputs) : $(PreLinkInputs) ;
+Depends "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\DLL_UserManagePanel.dll" : "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\DLL_UserManagePanel.dll.defs" ;
+Object "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\resources.res" : "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\resources.out.rc" ;
+Depends "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\resources.res" : $(PreLinkOutputs) ;
+Depends "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\resources.res" "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\resources.out.rc" : $(PrjObjects) $(InstrObjects) ;
+Depends "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\resources.res" : "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\manifest.xml" ;
+MainFromObjects "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\DLL_UserManagePanel.dll" : $(PrjObjects) $(InstrObjects) ;
+Depends "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\DLL_UserManagePanel.dll" : "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\link_options.txt" ;
+Depends "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\DLL_UserManagePanel.dll" : "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\resources.res" ;
+Depends "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\resources.res" :  "e:\\Repos\\UserManager\\DLL_UserManagePanel\\UserManagePanel.uir" ;
+Depends all : "e:\\Repos\\UserManager\\DLL_UserManagePanel\\cvibuild.UserManagePanel\\Debug\\DLL_UserManagePanel.dll" ;

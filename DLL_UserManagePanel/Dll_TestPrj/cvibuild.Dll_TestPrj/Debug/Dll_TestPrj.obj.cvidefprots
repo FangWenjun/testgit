@@ -1,0 +1,20 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[panelCB]
+Class="Function"
+Prototype="int panelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CBF_CBT_Login]
+Class="Function"
+Prototype="int CBF_CBT_Login(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CBF_TIMER_TestDll]
+Class="Function"
+Prototype="int CBF_TIMER_TestDll(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CBF_CBT_MdPSWD]
+Class="Function"
+Prototype="int CBF_CBT_MdPSWD(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

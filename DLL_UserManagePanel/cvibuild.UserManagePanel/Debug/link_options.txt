@@ -1,0 +1,44 @@
+-nologo
+-out:e:\Repos\UserManager\DLL_UserManagePanel\cvibuild.UserManagePanel\Debug\DLL_UserManagePanel.dll
+-def:e:\Repos\UserManager\DLL_UserManagePanel\cvibuild.UserManagePanel\Debug\DLL_UserManagePanel.dll.defs
+-implib:e:\Repos\UserManager\DLL_UserManagePanel\cvibuild.UserManagePanel\Debug\DLL_UserManagePanel.lib
+-ignoreexports
+-arch:x86
+-timestamp
+-debug:2
+-loadextmod
+-res:e:\Repos\UserManager\DLL_UserManagePanel\cvibuild.UserManagePanel\Debug\resources.res
+-entry:_CVIDllMainStartupCodeForDebugging@12
+-base:0x400000
+-linked:e:\Repos\UserManager\DLL_UserManagePanel\cvibuild.UserManagePanel\Debug\linkersummary.txt
+-dlldeps:e:\Repos\UserManager\DLL_UserManagePanel\cvibuild.UserManagePanel\Debug\dlldependencies.txt
+-licensing:e:\Repos\UserManager\DLL_UserManagePanel\cvibuild.UserManagePanel\Debug\linkerlicensing.txt
+-browsedeps:e:\Repos\UserManager\DLL_UserManagePanel\cvibuild.UserManagePanel\Debug\moduledependencies.txt
+-stackreserve:1048576
+-stackcommit:4096
+-in:e:\Repos\UserManager\DLL_UserManagePanel\cvibuild.UserManagePanel\Debug\Publish_MySQL.obj
+-in:e:\Repos\UserManager\DLL_UserManagePanel\cvibuild.UserManagePanel\Debug\UserManagePanel.obj
+-more:f:\program files\national instruments\cvi2013\bin\msvc\cvistart.lib
+-more:f:\program files\national instruments\cvi2013\bin\msvc\cvi.lib
+-more:f:\program files\national instruments\cvi2013\sdk\lib\msvc\advapi32.lib
+-more:c:\ProgramData\National Instruments\CVI2013\bin\msvc\analysis.lib
+-more:f:\Program Files\National Instruments\Shared\CVI\Bin\msvc\cvi_db.lib
+-more:f:\Program Files\National Instruments\CVI2013\bin\msvc\cviauto.lib
+-more:f:\Program Files\National Instruments\CVI2013\bin\msvc\cviddc.lib
+-more:f:\Program Files\National Instruments\CVI2013\bin\msvc\cvidotnet.lib
+-more:f:\Program Files\National Instruments\CVI2013\bin\msvc\cvinetstreams.lib
+-more:f:\Program Files\National Instruments\CVI2013\bin\msvc\cvinetv.lib
+-more:f:\Program Files\National Instruments\CVI2013\bin\msvc\cvintwrk.lib
+-more:f:\Program Files\National Instruments\CVI2013\bin\msvc\cvitdms.lib
+-more:f:\program files\national instruments\cvi2013\sdk\lib\msvc\gdi32.lib
+-more:f:\Program Files\National Instruments\CVI2013\bin\msvc\gpib.lib
+-more:f:\program files\national instruments\cvi2013\sdk\lib\msvc\kernel32.lib
+-more:e:\Repos\UserManager\DLL_UserManagePanel\libmysql.lib
+-more:f:\Program Files\National Instruments\CVI2013\bin\msvc\nivxi.lib
+-more:f:\Program Files\National Instruments\CVI2013\bin\msvc\omp.lib
+-more:f:\Program Files\National Instruments\CVI2013\toolslib\custctrl\msvc\pwctrl.obj
+-more:f:\Program Files\National Instruments\CVI2013\toolslib\toolbox\msvc\toolbox.obj
+-more:f:\program files\national instruments\cvi2013\sdk\lib\msvc\user32.lib
+-more:f:\program files\national instruments\cvi2013\sdk\lib\msvc\uuid.lib
+-more:f:\Program Files\National Instruments\Shared\CVI\Bin\msvc\visa.lib
+-more:f:\program files\national instruments\cvi2013\sdk\lib\msvc\winmm.lib

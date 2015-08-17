@@ -1,0 +1,7 @@
+LIBRARY DLL_UserManagePanel
+
+EXPORTS
+ChangeUserPassword
+CheckUserAuthorization
+SetUserAuthorizationRunTime
+Your_Functions_Here
